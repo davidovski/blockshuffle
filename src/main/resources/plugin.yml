@@ -1,0 +1,13 @@
+name: BlockShuffle
+main: org.ah.minecraft.blockshuffle.BlockShuffle
+version: 0.1
+api-version: 1.15
+author: aspiz
+
+
+commands:
+   start:
+      description: Starts the game
+      usage: /start
+      permission: blockshuffle.start
+      permission-message: You don't have permission
